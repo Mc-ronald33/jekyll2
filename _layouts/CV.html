@@ -1,0 +1,101 @@
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="CV.css" />
+		<title>CV Estelle Rousset</title> 
+	</head>
+
+	<body>
+		<div id="bloc_page">
+			<header>
+			{% assign profil = site.data.cv.presentation %}
+				<div class="presentation">
+					<img src="{{ profil.photo-cv }}" alt="Photo CV" /></br>
+					<h2> {{ profil.ER }} </h2>
+				</div>
+			
+
+				<div class="presentation">
+					<center><h2>{{ profil.AP }}</h2></center>
+					<center><p>{{ profil.resum }}</p></center>
+				</div>
+				
+				<div class="presentation">
+					<h2><center><img src="images/contact.png"/>Contact</center></h2>
+					<ul>
+						<li>{{ profil.ER }}</li>
+						<li>{{ profil.home }}</li>
+						<li>{{ profil.tel }}</li>
+						<li>{{ profil.mail }}</li>
+					</ul>
+				</div>
+			</header>
+			{{ endassign }}
+		
+			<div id="parcour">
+					<h2><img src="images/valise.png"/>Expériences</h2>
+				{% for parcour in site.data.cv.parcour %}
+				<div class="entreprise">
+				
+					{{ parcour.t }}
+					{{ parcour.a }}
+					
+				<ul>	{{  parcour.liste1  }} </ul>
+					
+                </div>
+                {% endfor %}
+            	<h2><img src="images/diplome.png"/>Formations</h2>
+            	{% for ecole in site.data.cv.ecole %}
+            	<div class="nomfor">
+            		<p>{{ ecole.ecole1 }}</br>
+            		{{ecole.a}}</br>
+            		{{ecole.dip}}</br>
+            		{{ecole.info}}</p>
+            	</div>
+            {% endfor %}
+            </div>
+
+            <footer>
+            	<div id="plus1">
+            		<h2>Personalité</h2>
+            	    {% for pluss in site.data.cv.plus %}
+            		<p>{{pluss.crea}}</br>
+            		{{pluss.p}}
+            		{% endfor %}
+            	</div>
+
+            	<div id="plus2">
+            		<h2>Langues</h2>
+            	    {% for pluus in site.data.cv.langue %}
+            		<p>{{pluus.langue}}</br>
+            		{{pluus.p}}
+            	{% endfor %}
+            	</div>
+            	
+            	<div id="plus3">
+            		<h2>Intérêts</h2>
+            		
+            		{% for inte in site.data.cv.interet %}
+            			
+						<li>{{inte.liste4}}</li>
+					
+						
+					{% endfor %}
+				</div>
+
+			</footer>
+		</div>
+	</body>
+<html>
+
+
+
+
+
+
+
+
+
+
+
+

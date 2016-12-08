@@ -1,0 +1,71 @@
+presentation:
+  photo-cv: images/moi-cv.jpg
+  ER: Estelle Rousset
+  AP: A propos
+  resum: Après plusieurs années passées dans le commerce et désireuse d'évoluer dans un nouveau domaine, je souhaite me former au métier de développeur web.
+  imgC: images/contact.png
+  home: 28 avenue d'aquitaine 33560 Carbon-Blanc
+  tel: 06 88 61 39 55 
+  mail: Rousset.estelle@gmail.com
+
+parcour:
+- t: KLING | Conseillère de vente<br>
+  a: 2015-2016
+- liste1: <li>Accueil de la clientèle, prise en compte des besoins, conseils</li>
+- liste1: <li>Réalisation des plannings, gestion et remise en banque, organisation de la boutique</li>
+- liste1: <li>Marchandasing, réassort des produits</li>
+- liste1: <li>Ouverture et fermeture du magasin, encaissement</li></br>
+
+- t: CHEVIGNON | Conseillère de vente<br>
+  a: Février-Mai 2014
+- liste1: <li>Accueil de la clientèle, prise en compte des besoins, conseils</li>
+- liste1: <li>Proposition des produits adéquats, réalisation des ventes, promouvoir la carte de fédilité</li>
+- liste1: <li>Marchandasing, mise en rayon, travail en équipe</li>
+- liste1: <li>Ouverture et fermeture du magasin, encaissement</li></br>
+
+- t: PRINCESSE TAMTAM | Conseillère de vente<br>
+  a: 2013-2014
+- liste1: <li>Accueil de la clientèle, prise en compte des besoins, conseils</li>
+- liste1: <li>Proposition des produits adéquats, réalisation des ventes, promouvoir la carte de fédilité</li>
+- liste1: <li>Marchandasing, mise en rayon, travail en équipe</li>
+- liste1: <li>Ouverture et fermeture du magasin, encaissement</li>
+
+
+ecole:
+- ecole1: Université de Bordeaux III
+  a: 2010-2011
+  dip: Licence Histoire de l'Art
+  info: Acquisition de connaissances fondamentales sur les traces matérielles humaines qu'on désigne sous le therme "d'Art". Antique, Médiévale, Moderne et comtemporaine.
+
+- ecole: Lycée Elie Faure
+  a: 2009-2010
+  dip: Bac Sciences des Technologies de la Gestion, Comptabilité et Finance d'Entrprise.
+  info: Formation qui permet d'acquerir de solide base en coptabilité, management des unités commerciales et droit.
+
+plus:
+- crea: Créatif
+  p: •••••••••
+- crea: Dynamique
+  p: ••••••••
+- crea: Organisé
+  p: ••••
+- crea: Autonome
+  p: •••••••••••••
+
+langue:
+- langue: Anglais
+  p: •••••
+- langue: Espagnol
+  p: •••
+
+interet:
+- liste4: Culture web
+- liste4: Mode
+- liste4: Création artistique
+- liste4: Voyage
+
+
+
+
+
+    

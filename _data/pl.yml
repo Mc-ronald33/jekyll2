@@ -1,0 +1,34 @@
+titre: Ma playlist coup de coeur!
+
+musique:
+- img: img/cover01.jpeg
+  audio: mp3/01.mp3
+- img: img/cover02.jpeg
+  audio: mp3/02.mp3
+- img: img/cover03.jpeg
+  audio: mp3/03.mp3
+- img: img/cover04.jpeg
+  audio: mp3/04.mp3
+- img: img/cover05.jpeg
+  audio: mp3/05.mp3
+- img: img/cover06.jpeg
+  audio: mp3/06.mp3
+- img: img/cover07.jpeg
+  audio: mp3/07.mp3
+- img: img/cover08.jpeg
+  audio: mp3/08.mp3
+- img: img/cover09.jpeg
+  audio: mp3/09.mp3
+- img: img/cover10.jpeg
+  audio: mp3/10.mp3
+- img: img/cover11.jpeg
+  audio: mp3/11.mp3
+- img: img/cover12.jpeg
+  audio: mp3/13.mp3
+- img: img/cover14.jpeg
+  audio: mp3/14.mp3
+- img: img/cover15.jpeg
+  audio: mp3/15.mp3
+
+
+ 

@@ -1,0 +1,13 @@
+title: Ronald's blog
+author: Aigars Dzerviniks
+description: Mon premier blog.
+
+highlighter: null
+permalink: /:title
+
+url:
+baseurl:
+
+sass:
+  sass_dir: public/css
+  style: :compressed
